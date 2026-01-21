@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- 
+  Demo Page for Cloudflare Chatbot Widget
+  
+  This is a standalone demo page that showcases the embeddable chatbot widget.
+  It demonstrates:
+  - Widget initialization and configuration
+  - Custom title, greeting, and placeholder text
+  - Integration with the widget script
+  
+  The widget can be embedded on any website by including widget.js and styles.css.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chatbot Assistant</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-br from-indigo-900 via-blue-600to-purple-900 flex items-center justify-center p-8"
+  >
+    <div
+      class="flex flex-col items-center justify-center text-center text-white"
+    >
+      <h1 class="text-4xl font-bold mb-4">Embeddable AI Chatbot Widget</h1>
+      <p class="text-lg mb-8 text-white/70">
+        This is an embeddable AI chatbot widget powered by Cloudflare Worker.
+      </p>
+
+      <h3 class="mb-2 font-semibold text-white/90">Try These Questions</h3>
+      <ul class="space-y-1 text-sm text-white/70">
+        <li>• &quot;Tell me about Arnob Mahmud&quot;</li>
+        <li>• &quot;Where is Arnob located?&quot;</li>
+        <li>• &quot;How can I contact Arnob?&quot;</li>
+        <li>• &quot;What are Arnob&apos;s services?&quot;</li>
+        <li>• &quot;What are Arnob&apos;s projects?&quot;</li>
+        <li>• &quot;What are Arnob&apos;s skills?&quot;</li>
+        <li>• &quot;What are Arnob&apos;s experience?&quot;</li>
+        <li>• &quot;What are Arnob&apos;s education?&quot;</li>
+      </ul>
+    </div>
+
+    <!-- 
+      Widget Configuration
+      
+      These global variables configure the widget behavior:
+      - CHATBOT_TITLE: Displayed in the widget header
+      - CHATBOT_GREETING: Initial message shown when widget opens
+      - CHATBOT_PLACEHOLDER: Text shown in the input field (optional, has default)
+      - CHATBOT_BASE_URL: API endpoint URL (optional, defaults to current origin)
+    -->
+    <script>
+      window.CHATBOT_TITLE = "Support";
+      window.CHATBOT_GREETING = "Hi! 👋 How can I help you today?";
+    </script>
+    <!-- Load the widget script - automatically initializes when DOM is ready -->
+    <script src="/widget.js"></script>
+  </body>
+</html>

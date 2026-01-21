@@ -1,0 +1,32 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ai-chatbot-widget",
+	"main": "src/index.js",
+	"compatibility_date": "2025-12-23",
+	"observability": {
+		"enabled": true
+	},
+	// Static Assets - serves the embeddable widget
+	"assets": {
+		"directory": "./public",
+		"binding": "ASSETS"
+	},
+	// Workers AI binding for chat completions and embeddings
+	"ai": {
+		"binding": "AI"
+	},
+	// Vectorize for RAG - FAQ vector search
+	"vectorize": [
+		{
+			"binding": "VECTORIZE",
+			"index_name": "faq-vectors"
+		}
+	],
+	// KV for session storage
+	"kv_namespaces": [
+		{
+			"binding": "CHAT_SESSIONS",
+			"id": "0011b88d773744f899fa603aeaa94dac"
+		}
+	]
+}
