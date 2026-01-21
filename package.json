@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"build:css": "npx tailwindcss -i ./src/input.css -o ./public/styles.css --minify && cat /Users/arnob_t78/Projects/NextJS/portfolio-chatbot-widget/public/styles.css >> ./public/styles.css",
+		"build:css": "npx tailwindcss -i ./src/input.css -o ./public/styles.css --minify && cat ./src/widget-styles.css >> ./public/styles.css",
 		"deploy": "npm run build:css && wrangler deploy",
 		"dev": "npm run build:css && wrangler dev"
 	},

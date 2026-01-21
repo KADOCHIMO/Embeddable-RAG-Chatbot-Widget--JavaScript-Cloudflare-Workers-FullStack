@@ -1,0 +1,179 @@
+/* Chatbot Widget Styles - Works with Tailwind CSS */
+
+/* Prevent horizontal scrolling on mobile */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+
+body > * {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Reset and base styles */
+#cb, #cb * {
+  box-sizing: border-box;
+}
+
+/* Chat window container - only override positioning, let Tailwind handle the rest */
+#cb-w {
+  /* Only critical positioning that must work */
+  position: fixed !important;
+  z-index: 99999 !important;
+}
+
+/* Header - minimal overrides, let Tailwind classes work */
+#cb-w > div:first-child {
+  flex-shrink: 0;
+}
+
+/* Menu dropdown - minimal override */
+#cb-d.hidden {
+  display: none !important;
+}
+
+/* Messages container - let Tailwind handle layout */
+#cb-ms {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Typing indicator */
+#cb-ty.hidden {
+  display: none !important;
+}
+
+/* Form/Input area - let Tailwind handle layout */
+#cb-f {
+  flex-shrink: 0;
+}
+
+/* Dark mode */
+#cb.dark #cb-w,
+.dark #cb-w {
+  background-color: #111827 !important;
+}
+
+#cb.dark #cb-w > div:first-child,
+.dark #cb-w > div:first-child {
+  background-color: #111827 !important;
+  border-color: #1f2937 !important;
+}
+
+#cb.dark #cb-w > div:first-child h3,
+.dark #cb-w > div:first-child h3 {
+  color: #ffffff !important;
+}
+
+#cb.dark #cb-w > div:first-child button,
+.dark #cb-w > div:first-child button {
+  color: #9ca3af !important;
+}
+
+#cb.dark #cb-w > div:first-child button:hover,
+.dark #cb-w > div:first-child button:hover {
+  background-color: #1f2937 !important;
+}
+
+#cb.dark #cb-d,
+.dark #cb-d {
+  background-color: #1f2937 !important;
+  border-color: #374151 !important;
+}
+
+#cb.dark #cb-d button,
+.dark #cb-d button {
+  color: #e5e7eb !important;
+}
+
+/* Hover styles handled by inline onmouseover/onmouseout in widget.js */
+
+#cb.dark #cb-ms,
+.dark #cb-ms {
+  background-color: #030712 !important;
+}
+
+#cb.dark #cb-ty,
+.dark #cb-ty {
+  background-color: #030712 !important;
+}
+
+#cb.dark #cb-f,
+.dark #cb-f {
+  background-color: #111827 !important;
+  border-color: #1f2937 !important;
+}
+
+#cb.dark #cb-i,
+.dark #cb-i {
+  background-color: #1f2937 !important;
+  border-color: #374151 !important;
+  color: #ffffff !important;
+}
+
+#cb.dark #cb-i::placeholder,
+.dark #cb-i::placeholder {
+  color: #9ca3af !important;
+}
+
+#cb.dark #cb-se,
+.dark #cb-se {
+  color: #d1d5db !important;
+}
+
+#cb.dark #cb-se:hover,
+.dark #cb-se:hover {
+  background-color: #1f2937 !important;
+}
+
+#cb.dark #cb-ms > div > div,
+.dark #cb-ms > div > div {
+  background-color: #1f2937 !important;
+  color: #f9fafb !important;
+  border-color: #374151 !important;
+}
+
+/* Custom scrollbar */
+#cb-ms::-webkit-scrollbar {
+  width: 8px;
+}
+
+#cb-ms::-webkit-scrollbar-track {
+  background: rgb(249, 250, 251);
+}
+
+#cb-ms::-webkit-scrollbar-thumb {
+  background: rgb(229, 231, 235);
+  border-radius: 4px;
+}
+
+#cb-ms::-webkit-scrollbar-thumb:hover {
+  background: rgb(209, 213, 219);
+}
+
+#cb.dark #cb-ms::-webkit-scrollbar-track,
+.dark #cb-ms::-webkit-scrollbar-track {
+  background: rgb(3, 7, 18);
+}
+
+#cb.dark #cb-ms::-webkit-scrollbar-thumb,
+.dark #cb-ms::-webkit-scrollbar-thumb {
+  background: rgb(31, 41, 55);
+}
+
+#cb.dark #cb-ms::-webkit-scrollbar-thumb:hover,
+.dark #cb-ms::-webkit-scrollbar-thumb:hover {
+  background: rgb(55, 65, 81);
+}
+
+#cb-ms {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(229, 231, 235) rgb(249, 250, 251);
+}
+
+#cb.dark #cb-ms,
+.dark #cb-ms {
+  scrollbar-color: rgb(31, 41, 55) rgb(3, 7, 18);
+}
