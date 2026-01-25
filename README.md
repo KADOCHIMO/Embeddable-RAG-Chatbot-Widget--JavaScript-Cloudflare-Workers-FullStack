@@ -4,7 +4,7 @@ A production-ready, embeddable AI chatbot widget powered by Cloudflare Workers, 
 
 - **Live-Demo:** [https://ai-chatbot-widget.arnobt78.workers.dev/](https://ai-chatbot-widget.arnobt78.workers.dev/)
 
-- **Production-Live:** [https://arnob-mahmud.vercel.app/](https://arnob-mahmud.vercel.app/)
+- **Production-Live:** [https://www.arnobmahmud.com/](https://www.arnobmahmud.com/)
 
 ---
 
@@ -857,9 +857,9 @@ The codebase is well-documented and structured for easy understanding and extens
 
 ## Happy Coding! 🎉
 
-Feel free to use this project repository and extend this project further!
+This is an **open-source project** - feel free to use, enhance, and extend this project further!
 
-If you have any questions or want to share your work, reach out via GitHub or my portfolio at [https://arnob-mahmud.vercel.app/](https://arnob-mahmud.vercel.app/).
+If you have any questions or want to share your work, reach out via GitHub or my portfolio at [https://www.arnobmahmud.com/](https://www.arnobmahmud.com/).
 
 **Enjoy building and learning!** 🚀
 
