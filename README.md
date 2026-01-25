@@ -6,6 +6,10 @@ A production-ready, embeddable AI chatbot widget powered by Cloudflare Workers, 
 
 - **Production-Live:** [https://www.arnobmahmud.com/](https://www.arnobmahmud.com/)
 
+**Author:** [Arnob Mahmud](https://www.arnobmahmud.com/) | **License:** [MIT](./LICENSE)
+
+> 🌟 **Open Source Project** - This is an open-source project. Feel free to use, enhance, and extend this project to the next level! Contributions, improvements, forks, and stars are always welcome. Together, we can make this chatbot widget even better!
+
 ![Screenshot 2026-01-25 at 15 10 10](https://github.com/user-attachments/assets/62c0b8eb-0d6c-416f-b6df-cc223b816a6e)
 
 ## 📋 Table of Contents
